@@ -1,5 +1,6 @@
 CONNECT = 257
 DISCONNECT = 258
+request:{"msg_id":258,"token":1}
 GET_SERIAL_NO = 4097
 GET_WIFI = 1539
 REGISTER_TCP = 261  # {"msg_id":261,"param":"192.168.42.2","token":3,"type":"TCP"}

@@ -1,0 +1,263 @@
+-----------------------------------------------------------------------------------------------------------
+Connectar
+
+CONNECT = 257
+{"msg_id":257,"token":0}, (AMBARequest(18599907) : msgID=257, token=0, param=null)
+GET_SERIAL_NO = 4097
+{"msg_id":4097,"token":3}, (AMBARequest(116975769) : msgID=4097, token=3, param=null)
+GET_WIFI = 1539
+{"msg_id":1539,"token":3}, (AMBARequest(246515519) : msgID=1539, token=3, param=null)
+REGISTER_TCP = 261
+{"msg_id":261,"param":"192.168.42.2","token":3,"type":"TCP"}, (AMBARequest(166098261) : msgID=261, token=3, param=192.168.42.2)
+GET_CAMERA = 4365
+{"msg_id":4365,"token":3}, (AMBARequest(264329307) : msgID=4365, token=3, param=null)
+SET_DATE = 6147
+{"msg_id":6147,"param":"2020-07-17-19-48-23-5","token":3}, (AMBARequest(262179064) : msgID=6147, token=3, param=2020-07-17-19-48-23-5)
+GET_STORAGE = 4358
+{"msg_id":4358,"token":3}, (AMBARequest(149295569) : msgID=4358, token=3, param=null)
+GET_DEVICE = 4364
+{"msg_id":4364,"token":3}, (AMBARequest(201946166) : msgID=4364, token=3, param=null)
+CHANGE_DIRECTORY = 1283
+{"msg_id":1283,"param":"/tmp/SD0/DCIM/","token":3}, (AMBARequest(15769026) : msgID=1283, token=3, param=/tmp/SD0/DCIM/)
+LIST_DIRECTORY = 1282
+{"msg_id":1282,"token":3}, (AMBARequest(175995964) : msgID=1282, token=3, param=null)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Desconectar
+
+{"msg_id":258,"token":3}, (AMBARequest(150506063) : msgID=258, token=3, param=null)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Mudar para Video/Foto
+
+Video
+SWITCH_MODE = 4611
+{"msg_id":4611,"param":"1","token":4}, (AMBARequest(98948239) : msgID=4611, token=4, param=1)
+Foto
+SWITCH_MODE = 4611
+{"msg_id":4611,"param":"0","token":4}, (AMBARequest(24922917) : msgID=4611, token=4, param=0)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Iniciar para Video
+
+{"msg_id":513,"token":4}, (AMBARequest(112191174) : msgID=513, token=4, param=null)
+{"msg_id":514,"token":4}, (AMBARequest(227129821) : msgID=514, token=4, param=null)
+
+FILE_INFO = 1026
+{"msg_id":1026,"param":"/tmp/SD0/DCIM/20200717/VID_20200717_195730AA.MP4","token":4}, (AMBARequest(48875537) : msgID=1026, token=4, param=/tmp/SD0/DCIM/20200717/VID_20200717_195730AA.MP4)
+{"msg_id":1025,"param":"/tmp/SD0/DCIM/20200717/VID_20200717_195730AB.MP4","token":4,"type":"idr"}, (AMBARequest(81485687) : msgID=1025, token=4, param=/tmp/SD0/DCIM/20200717/VID_20200717_195730AB.MP4)
+
+
+Tirar foto?
+{"msg_id":4864,"token":1}
+3s foto (long press)
+{"msg_id":4868,"token":1}
+
+
+{"msg_id":4361,"token":1}
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+SET_VIDEO_SLOWMO = 4916
+
+0x
+{"msg_id":4916,"param":"0","token":4}, (AMBARequest(182493238) : msgID=4916, token=4, param=0)
+2x
+{"msg_id":4916,"param":"2","token":4}, (AMBARequest(131798541) : msgID=4916, token=4, param=2)
+4x
+{"msg_id":4916,"param":"4","token":4}, (AMBARequest(190147905) : msgID=4916, token=4, param=4)
+8x (not suported)
+{"msg_id":4916,"param":"8","token":4}, (AMBARequest(190147905) : msgID=4916, token=4, param=8)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+SET_VIDEO_TIMELAPSE = 4621
+
+0s
+{"msg_id":4621,"param":"0","token":4}, (AMBARequest(123774038) : msgID=4621, token=4, param=0)
+0.5s
+{"msg_id":4621,"param":"255","token":4}, (AMBARequest(257552684) : msgID=4621, token=4, param=255)
+1s
+{"msg_id":4621,"param":"1","token":4}, (AMBARequest(214193714) : msgID=4621, token=4, param=1)
+2s
+{"msg_id":4621,"param":"2","token":4}, (AMBARequest(32545588) : msgID=4621, token=4, param=2)
+5s
+{"msg_id":4621,"param":"5","token":4}, (AMBARequest(155885098) : msgID=4621, token=4, param=5)
+10s
+{"msg_id":4621,"param":"10","token":4}, (AMBARequest(25901412) : msgID=4621, token=4, param=10)
+30s
+{"msg_id":4621,"param":"30","token":4}, (AMBARequest(16444110) : msgID=4621, token=4, param=30)
+60s
+{"msg_id":4621,"param":"60","token":4}, (AMBARequest(251756776) : msgID=4621, token=4, param=60)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Timer
+
+off
+{"msg_id":4866,"param":"0","token":1}, (AMBARequest(84078334) : msgID=4866, token=1, param=0)
+3s
+{"msg_id":4866,"param":"3","token":1}, (AMBARequest(231441914) : msgID=4866, token=1, param=3)
+4s
+{"msg_id":4866,"param":"4","token":1}, (AMBARequest(195961123) : msgID=4866, token=1, param=4)
+5s
+{"msg_id":4866,"param":"5","token":1}, (AMBARequest(125654092) : msgID=4866, token=1, param=5)
+6s
+{"msg_id":4866,"param":"6","token":1}, (AMBARequest(235474193) : msgID=4866, token=1, param=6)
+7s
+{"msg_id":4866,"param":"7","token":1}, (AMBARequest(70286338) : msgID=4866, token=1, param=7)
+8s
+{"msg_id":4866,"param":"8","token":1}, (AMBARequest(56275823) : msgID=4866, token=1, param=8)
+9s
+{"msg_id":4866,"param":"9","token":1}, (AMBARequest(177049704) : msgID=4866, token=1, param=9)
+10s
+{"msg_id":4866,"param":"10","token":1}, (AMBARequest(191578045) : msgID=4866, token=1, param=10)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Intervalo
+
+off
+{"msg_id":4929,"param":"0","token":1}, (AMBARequest(64811585) : msgID=4929, token=1, param=0)
+2s
+{"msg_id":4929,"param":"2","token":1}, (AMBARequest(223421481) : msgID=4929, token=1, param=2)
+5s
+{"msg_id":4929,"param":"5","token":1}, (AMBARequest(259613384) : msgID=4929, token=1, param=5)
+10s
+{"msg_id":4929,"param":"10","token":1}, (AMBARequest(153575581) : msgID=4929, token=1, param=10)
+30s
+{"msg_id":4929,"param":"30","token":1}, (AMBARequest(16106590) : msgID=4929, token=1, param=30)
+60s
+{"msg_id":4929,"param":"60","token":1}, (AMBARequest(9621851) : msgID=4929, token=1, param=60)
+120s 2min
+{"msg_id":4929,"param":"120","token":1}, (AMBARequest(247665060) : msgID=4929, token=1, param=120)
+300s (5 min)
+{"msg_id":4929,"param":"300","token":1}, (AMBARequest(54520585) : msgID=4929, token=1, param=300)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+PHOTO_RES = 4872
+
+6912x3456
+{"msg_id":4872,"param":"0","token":1}, (AMBARequest(115513208) : msgID=4872, token=1, param=0)
+3456x1728 (stiched)
+{"msg_id":4872,"param":"1","token":1}, (AMBARequest(202260563) : msgID=4872, token=1, param=1)
+6912x3456 (stiched)
+{"msg_id":4872,"param":"2","token":1}, (AMBARequest(201231770) : msgID=4872, token=1, param=2)
+6912x3456 Raw
+{"msg_id":4872,"param":"3","token":1}, (AMBARequest(24188157) : msgID=4872, token=1, param=3)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+SET_BUZZER_VOLUME = 6145
+
+off
+{"msg_id":6145,"param":"0","token":1}, (AMBARequest(85124532) : msgID=6145, token=1, param=0)
+25%
+{"msg_id":6145,"param":"1","token":1}, (AMBARequest(179475794) : msgID=6145, token=1, param=1)
+50%
+{"msg_id":6145,"param":"2","token":1}, (AMBARequest(114469152) : msgID=6145, token=1, param=2)
+75%
+{"msg_id":6145,"param":"3","token":1}, (AMBARequest(4240542) : msgID=6145, token=1, param=3)
+100%
+{"msg_id":6145,"param":"4","token":1}, (AMBARequest(46742399) : msgID=6145, token=1, param=4)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Calibrar camera
+
+{"msg_id":6165,"token":1}, (AMBARequest(68978104) : msgID=6165, token=1, param=null)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+LED
+
+Off
+{"msg_id":6156,"param":"0","token":1}, (AMBARequest(144365035) : msgID=6156, token=1, param=0)
+On
+{"msg_id":6156,"param":"1","token":1}, (AMBARequest(79901153) : msgID=6156, token=1, param=1)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+White Balance
+
+Auto
+{"msg_id":5168,"param":"0","token":1}, (AMBARequest(80451515) : msgID=5168, token=1, param=0)
+Outdors
+{"msg_id":5168,"param":"1","token":1}, (AMBARequest(251252785) : msgID=5168, token=1, param=1)
+Overcast
+{"msg_id":5168,"param":"2","token":1}, (AMBARequest(9565335) : msgID=5168, token=1, param=2)
+Incandecent
+{"msg_id":5168,"param":"3","token":1}, (AMBARequest(40517229) : msgID=5168, token=1, param=3)
+Fluorecent
+{"msg_id":5168,"param":"4","token":1}, (AMBARequest(100090675) : msgID=5168, token=1, param=4)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+ISO
+
+Auto
+{"msg_id":5172,"param":"0","token":1}, (AMBARequest(85029808) : msgID=5172, token=1, param=0)
+50
+{"msg_id":5172,"param":"50","token":1}, (AMBARequest(217868718) : msgID=5172, token=1, param=50)
+100
+{"msg_id":5172,"param":"100","token":1}, (AMBARequest(185735900) : msgID=5172, token=1, param=100)
+200
+{"msg_id":5172,"param":"200","token":1}, (AMBARequest(162099898) : msgID=5172, token=1, param=200)
+400
+{"msg_id":5172,"param":"400","token":1}, (AMBARequest(118753480) : msgID=5172, token=1, param=400)
+800
+{"msg_id":5172,"param":"800","token":1}, (AMBARequest(116129926) : msgID=5172, token=1, param=800)
+1600
+{"msg_id":5172,"param":"1600","token":1}, (AMBARequest(63236468) : msgID=5172, token=1, param=1600)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Tempo de exposição
+
+Auto
+{"msg_id":5171,"param":"0","token":1}, (AMBARequest(186634900) : msgID=5171, token=1, param=0)
+1/6400
+{"msg_id":5171,"param":"39168","token":1}, (AMBARequest(199496988) : msgID=5171, token=1, param=39168)
+1/3200
+{"msg_id":5171,"param":"35968","token":1}, (AMBARequest(144755182) : msgID=5171, token=1, param=35968)
+1/2000
+{"msg_id":5171,"param":"34768","token":1}, (AMBARequest(174868976) : msgID=5171, token=1, param=34768)
+1/1000
+{"msg_id":5171,"param":"33768","token":1}, (AMBARequest(172291490) : msgID=5171, token=1, param=33768)
+1/500
+{"msg_id":5171,"param":"33268","token":1}, (AMBARequest(200612228) : msgID=5171, token=1, param=33268)
+1/240
+{"msg_id":5171,"param":"33008","token":1}, (AMBARequest(176033302) : msgID=5171, token=1, param=33008)
+1/120
+{"msg_id":5171,"param":"32888","token":1}, (AMBARequest(143022040) : msgID=5171, token=1, param=32888)
+1/60
+{"msg_id":5171,"param":"32828","token":1}, (AMBARequest(106088266) : msgID=5171, token=1, param=32828)
+1/30
+{"msg_id":5171,"param":"32798","token":1}, (AMBARequest(26384620) : msgID=5171, token=1, param=32798)
+1/15
+{"msg_id":5171,"param":"32783","token":1}, (AMBARequest(134649150) : msgID=5171, token=1, param=32783)
+1/8
+{"msg_id":5171,"param":"32776","token":1}, (AMBARequest(214642880) : msgID=5171, token=1, param=32776)
+1/4
+{"msg_id":5171,"param":"32772","token":1}, (AMBARequest(147696626) : msgID=5171, token=1, param=32772)
+1s
+{"msg_id":5171,"param":"1","token":1}, (AMBARequest(162804564) : msgID=5171, token=1, param=1)
+2s
+{"msg_id":5171,"param":"2","token":1}, (AMBARequest(255917926) : msgID=5171, token=1, param=2)
+4s
+{"msg_id":5171,"param":"4","token":1}, (AMBARequest(100168872) : msgID=5171, token=1, param=4)
+8s
+{"msg_id":5171,"param":"8","token":1}, (AMBARequest(244466586) : msgID=5171, token=1, param=8)
+12s
+{"msg_id":5171,"param":"12","token":1}, (AMBARequest(75335868) : msgID=5171, token=1, param=12)
+16s
+{"msg_id":5171,"param":"16","token":1}, (AMBARequest(176155790) : msgID=5171, token=1, param=16)
+20s
+{"msg_id":5171,"param":"20","token":1}, (AMBARequest(188203920) : msgID=5171, token=1, param=20)
+24s
+{"msg_id":5171,"param":"24","token":1}, (AMBARequest(67710530) : msgID=5171, token=1, param=24)
+28s
+{"msg_id":5171,"param":"28","token":1}, (AMBARequest(197015844) : msgID=5171, token=1, param=28)
+32s
+{"msg_id":5171,"param":"32","token":1}, (AMBARequest(48364726) : msgID=5171, token=1, param=32)
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+Bateria
+{"msg_id":4361,"token":1} -------- Retorno {"rval":0,"msg_id":4361,"param":2}, imagino que 2 = 50%
+
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
